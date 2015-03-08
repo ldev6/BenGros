@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="49dp"
+        android:orientation="vertical" 
+       >
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/staples" />
+
+    <Button
+        android:id="@+id/button_computer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="47dp"
+        android:onClick="onClickComputer"
+        android:text="@string/computer" 
+		android:drawableTop="@drawable/computer"
+		android:background="@android:color/transparent"
+		android:textColor="#FFFFFF"
+		/>
+
+
+    <Button
+        android:id="@+id/button_Evenements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_computer"
+        android:layout_below="@+id/button_computer"
+        android:layout_marginTop="52dp"
+        android:text="@string/meuble"
+   		android:drawableTop="@drawable/chair"
+    	android:background="@android:color/transparent"
+		android:textColor="#FFFFFF"
+		android:onClick="onClickMeuble"
+    />
+   </RelativeLayout>
+
+    <!--   <Button
+        android:id="@+id/button_tablette"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_computer"
+        android:layout_alignRight="@+id/button_computer"
+        android:layout_below="@+id/button_computer"
+        android:layout_marginTop="52dp"
+        android:text="@string/tablette"
+	    android:drawableTop="@drawable/ipad"
+	    android:background="@android:color/transparent"
+	    android:textColor="#FFFFFF" 
+	/>--> 
+

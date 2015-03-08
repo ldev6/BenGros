@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="staples.computer"
+    android:versionCode="2"
+    android:versionName="2" >
+
+    <uses-sdk android:minSdkVersion="10" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="staples.MenuViewActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="staples.computer.StaplesComputerActivity">
+        </activity>
+        <activity
+            android:name="staples.bureau.MeubleActivity">
+        </activity>
+          <activity
+            android:name="staples.skuActivity">
+        </activity>
+        <activity
+            android:name="com.google.zxing.client.android.SCAN">
+        </activity>
+    </application>
+
+</manifest>

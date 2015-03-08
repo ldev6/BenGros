@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android1:id="@+id/textSku"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:text="@string/sku"
+        android1:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android1:id="@+id/scrollView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/textSku"
+        android1:layout_marginTop="18dp" 
+        android1:layout_marginLeft="20dp">
+
+        <TableLayout
+            android1:id="@+id/tableLayout"
+            android1:layout_width="match_parent"
+            android1:layout_height="wrap_content"
+            android1:layout_marginTop="62dp" >
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Staples computer</string>
+    
+ 	<string name="computer">Ordinateur</string>
+    <string name="prix_ordi">Prix de l\'ordinateur:</string>
+    <string name="prix">Prix</string>
+    <string name="Bureau">Bureau</string>
+    <string name="Laptop">Laptop</string>
+    <string name="Mac">Mac</string>
+    <string name="Annee1"> 1 ans</string>
+    <string name="Annee2">2 ans</string>
+    <string name="Plan">Plans de réparation</string>
+    <string name="Accidentel">Accidentel</string>
+    <string name="RecupDonne">Récup données</string>
+    <string name= "PrixTotal">Prix Total sans TX</string>
+    <string name= "PrixTotalTaxe">Prit Total avec TX</string>
+    <string name= "conf">Configuration</string>
+    <string name= "nouveau">Nouveau</string>
+    <string name= "sku">SKU</string>
+    <string name= "dialogTitle">Configuration</string>
+    <string name= "sku_ordi">Sku de l\'ordinateur</string>
+    <string name= "add_item">Ajout Item</string>
+    <string name= "ok">OK</string>
+    <string name= "cancel">Annuler</string>
+    <string name= "liquidation">Liquidation</string>
+    <string name= "scan">scan</string>
+    
+    
+    <string name= "tablette">Tablette</string>
+    
+    <string name= "meuble">Meuble</string>
+    <string name= "prix_meuble">Prix du meuble</string>
+    <string name= "meubleFauteils">Meuble \nFauteils/Chaises</string>
+    <string name= "fauteuil">Fauteils/Chaises</string>
+    <string name= "BureauVerre">Bureau \nen verre</string>
+    <string name= "Remplacement">Plan de Remplacement </string>
+</resources>
